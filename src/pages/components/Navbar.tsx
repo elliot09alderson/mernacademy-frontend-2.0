@@ -15,7 +15,7 @@ const Navbar = () => {
     { label: "e-Commerce", path: "/ecommerce" },
   ];
   return (
-    <div className="h-20 bg-white rounded-b-xl  flex top-0 z-50 mb-20 fixed lg:w-[99vw] w-full shadow-md list-none flex-row  justify-between items-center lg:px-24  px-2   text-slate-900">
+    <div className="h-20 bg-white rounded-b-xl  flex top-0 z-50 mb-20 fixed lg:w-[99vw] w-full shadow-md list-none flex-row  justify-between items-center lg:px-24  px-2    text-slate-900">
       <div>
         <img
           src={"/logo/logo.png"}
@@ -33,8 +33,8 @@ const Navbar = () => {
         ))}
       </div>
 
-      <div className="w-full">
-        <div className="flex items-center cursor-pointer gap-4 justify-between w-full lg:justify-center">
+      <div className="">
+        <div className="flex items-center cursor-pointer gap-4 justify-between lg:justify-center">
           <div className="bg-white p-2">
             <IoMdCart size={25} />
           </div>
