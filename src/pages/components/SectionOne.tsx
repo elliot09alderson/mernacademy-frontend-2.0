@@ -2,10 +2,11 @@ import { TbStairsUp } from "react-icons/tb";
 import { FaArrowRightLong, FaPaintbrush } from "react-icons/fa6";
 import { FaLightbulb } from "react-icons/fa";
 import { GrTechnology } from "react-icons/gr";
+
 const SectionOne = () => {
   return (
-    <div className=" w-full bg-[#f5f5fd]  justify-between flex items-center  mt-20 py-12 px-24 shadow-sm   ">
-      <div className="flex flex-col w-full gap-8">
+    <div className=" w-full bg-[#f5f5fd]  justify-between flex items-center lg:flex-row flex-col  mt-20 py-12 px-4 lg:px-24 shadow-sm   ">
+      <div className="flex flex-col w-full gap-8 lg:py-0 py-12">
         <h2 className="px-4 py-1 w-36 rounded-2xl font-semibold bg-blue-200 text-blue-700   text-base ">
           Popular Stack
         </h2>
@@ -30,7 +31,7 @@ const SectionOne = () => {
         </button>
       </div>
 
-      <div className="w-full flex items-center justify-end flex-wrap gap-8 relative  pb-12">
+      <div className="w-full flex lg:flex-row flex-col items-center justify-end flex-wrap gap-8 relative  pb-12">
         <img
           className="absolute z-0 drop-shadow-3xl  shadow-blue-200"
           src="/section1/bg.png"

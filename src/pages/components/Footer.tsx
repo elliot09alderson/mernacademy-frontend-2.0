@@ -1,15 +1,14 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
-import { SlSocialTwitter } from "react-icons/sl";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="h-[100vh] w-full  bg-[#0d0e2c] px-24">
+    <div className=" h-auto lg:h-[100vh] w-full  bg-[#0d0e2c] px-2 lg:px-24">
       {/* first section */}
 
-      <div className="h-[26vh] flex items-center justify-between">
+      <div className=" lg:h-[26vh] h-auto flex lg:flex-row py-8 flex-col items-center justify-between">
         <div className="py-12 flex flex-col gap-4">
           <h1 className=" text-white font-bold text-4xl heading">
             Still You Need Our <span className="text-blue-700">Support ?</span>
@@ -18,19 +17,19 @@ const Footer = () => {
             Don’t wait make a smart & logical quote here. Its pretty easy.
           </h2>
         </div>
-        <div className="flex  items-center justify-center">
+        <div className="flex flex-row gap-2  items-center justify-center">
           <input
             type="text"
-            className="h-16 rounded-md pl-4 w-96 text-slate-600 bg-slate-800  "
+            className="h-16 rounded-md pl-4 w-64 lg:w-96 text-slate-600 bg-slate-800  "
             placeholder="Enter your Email here"
           ></input>
-          <button className="bg-blue-700 px-8 py-5 hover:bg-slate-900/30 rounded-md text-white font-semibold duration-700 ease-out  hover:ring-blue-500 hover:ring-1">
+          <button className="bg-blue-700 lg:px-8 px-4 lg:py-5 py-2 hover:bg-slate-900/30 rounded-md text-white font-semibold duration-700 ease-out  hover:ring-blue-500 hover:ring-1">
             Subscribe Now
           </button>
         </div>
       </div>
       {/* second section */}
-      <div className="border border-slate-700 border-b-0 border-l-0 border-r-0  border-t flex items-center gap-8 justify-between py-24 w-full text-slate-300 list-none text-base">
+      <div className="border border-slate-700 border-b-0 border-l-0 border-r-0  border-t flex lg:flex-row flex-col items-center gap-8 justify-between py-24 w-full text-slate-300 list-none text-base">
         <div className="w-full flex flex-col gap-6 ">
           <h2 className="text-2xl text-white font-bold">About us</h2>
 
@@ -105,12 +104,12 @@ const Footer = () => {
         </div>
       </div>
       {/* third section */}
-      <div className="px-12 flex items-center justify-between ">
+      <div className="lg:px-12 px-2 flex items-center lg:gap-0 lg:py-0 gap-2 py-4 flex-col lg:flex-row justify-between ">
         <div className="w-full text-white text-3xl font-semibold">logo</div>
-        <div className="text-white text-base w-full min-w-96 ">
+        <div className="text-white text-base w-full lg:min-w-96  ">
           Copyright © 2024 by edurock. All Rights Reserved.
         </div>
-        <div className="flex items-center justify-center w-full gap-3">
+        <div className="flex items-center lg:justify-center w-full gap-3">
           {[
             { icon: FaFacebookF, path: "/facebook" },
             { icon: FaTwitter, path: "/facebook" },

@@ -29,14 +29,14 @@ const SectionRegisteration = () => {
     comment: "",
   };
   return (
-    <div className="relative h-[100vh]">
+    <div className="relative lg:h-[100vh] h-[180vh]">
       <img
         src="/section1/laptop.jpg"
-        className="object-cover w-full h-[80vh] absolute z-20"
+        className="object-cover w-full lg:h-[80vh] h-auto absolute z-20"
         alt=""
       />
-      <div className="bg-[rgba(0,0,100,0.5)] absolute z-30 w-full h-[80vh]"></div>
-      <div className="px-24  flex w-full  absolute z-30 items-center justify-center ">
+      <div className="bg-[rgba(0,0,100,0.5)] absolute z-30 w-full lg:h-[80vh] h-auto"></div>
+      <div className="lg:px-24 px-0   flex w-full flex-col lg:flex-row  absolute z-30 items-center justify-center ">
         <div className="w-full  flex">
           <div className="flex flex-col  justify-center gap-4">
             <h2 className="px-4 py-1 w-28 rounded-2xl font-semibold bg-blue-200 text-blue-700   text-base ">

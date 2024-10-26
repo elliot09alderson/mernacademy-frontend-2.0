@@ -12,11 +12,11 @@ const App = () => {
       smooth: true,
     });
 
-    // const onScroll = (e: any) => {
-    //   // console.log(e);
-    // };
+    const onScroll = (e: any) => {
+      // console.log(e);
+    };
 
-    // lenis.on("scroll", onScroll);
+    lenis.on("scroll", onScroll);
 
     function raf(time: number) {
       lenis.raf(time);
@@ -30,6 +30,9 @@ const App = () => {
     };
   }, []);
 
+
+
+  
   const Router = createBrowserRouter([
     {
       path: "/",

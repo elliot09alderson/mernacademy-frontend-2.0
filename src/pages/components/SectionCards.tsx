@@ -5,18 +5,18 @@ import { IoMdTime } from "react-icons/io";
 const SectionCards = () => {
   const [active, setActive] = useState(0);
   return (
-    <div className="flex  pb-24 flex-col items-center justify-center w-full px-24">
-      <div className="flex items-center justify-between w-full">
-        <div className="flex flex-col gap-4 py-12 w-full">
+    <div className="flex  pb-24 flex-col items-center justify-center w-full px-4 lg:px-24">
+      <div className="flex items-center flex-col lg:flex-row justify-between w-full">
+        <div className="flex flex-col gap-4 py-8 w-full">
           <h2 className="px-4 py-1 w-28 rounded-2xl font-semibold bg-blue-200 text-blue-700   text-base ">
             Course List
           </h2>
 
-          <h1 className="text-4xl font-bold max-w-96 text-slate-900">
+          <h1 className="text-4xl font-bold lg:max-w-96 w-full text-slate-900">
             Perfect Online Course For Your Carrer
           </h1>
         </div>
-        <div className="w-full  flex items-center shadow-sm py-4 rounded-lg shadow-blue-400 justify-center gap-8 font-semibold">
+        <div className="w-full divide-y  h-auto flex-col lg:flex-row flex items-center shadow-sm lg:py-4 py-8 rounded-lg shadow-blue-400 justify-center gap-8 font-semibold">
           {[
             "See All",
             "Data Science",
@@ -37,7 +37,7 @@ const SectionCards = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-wrap gap-12  justify-between">
+      <div className="flex flex-wrap gap-12 mt-8 lg:mt-0  justify-between">
         {[
           {
             branch: "Artificial Intelligence",
