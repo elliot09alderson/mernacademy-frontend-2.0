@@ -12,11 +12,12 @@ const SectionOne = () => {
         </h2>
 
         <h1 className="text-4xl font-bold max-w-96 text-slate-900">
-          Provide It & Technol Subject For You
+          Get Training in Latest Trending Technologies
         </h1>
         <p className="text-gray-500 font-base font-semibold">
-          Construction is a general term meaning the art and science to form
-          systems organizations, and comes from Latin Construction is
+          Build your strong carrer in field of AI, Editing and Software
+          Development. Develop your personality with advanced communication
+          techniques.
         </p>
 
         <div className="p-2 border-l-4  border-gray-500 ">

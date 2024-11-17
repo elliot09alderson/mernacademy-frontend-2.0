@@ -44,9 +44,9 @@ const SectionRegisteration = () => {
             </h2>
 
             <h1 className="text-4xl font-bold max-w-[40vw] text-white">
-              Register Your Account Get free access to{" "}
-              <span className="text-yellow-500"> 60000 </span>
-              online course
+              Register Your Account to get 2 days free
+              <span className="text-yellow-500"> Demo </span>
+              on your topics
             </h1>
           </div>
         </div>

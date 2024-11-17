@@ -23,17 +23,18 @@ const SectionIntro = () => {
           </h2>
 
           <h1 className="text-5xl  font-bold max-w-96 text-slate-900">
-            Welcome to the Online Learning Center
+            Welcome to the Carrer Changing Institute
           </h1>
           <div className="text-gray-500 flex border-l-2 border-blue-500 p-4 ">
-            25+Contrary to popular belief, Lorem Ipsum is not simply random text
-            roots in a piece of classical Latin literature from 45 BC
+            Beat Exising Software Engineers of the top Tier Companies with only
+            6 months of training. Lend a high paying job without waiting for
+            years.
           </div>
           <div className="list-none flex flex-col  justify-start gap-5">
             {[
-              "Lorem Ipsum is simply dummy",
-              " Explore a variety of fresh educational teach",
-              "Lorem Ipsum is simply dummy text of",
+              "Become Software Engineer in 6 months ",
+              "Explore a variety of fresh educational teachings",
+              "Develop your Personality and Skills",
             ].map((item, idx) => (
               <div className="flex items-center gap-2 justify-start" key={idx}>
                 <div className="w-8 h-8 hover:bg-blue-500 hover:text-white flex items-center justify-center text-blue-500 bg-blue-100">
@@ -47,16 +48,16 @@ const SectionIntro = () => {
       </div>
       <div className="w-full flex lg:gap-8 gap-12 lg:h-48 h-auto lg:py-0  pt-12 justify-evenly lg:flex-row flex-col px-4">
         {[
-          { icon: CiMedal, title: "Total Achievement", count: "1+" },
+          { icon: CiMedal, title: " Placement Confirmed", count: "3+" },
           { icon: PiStudent, title: "Total Students", count: "14+" },
           {
             icon: PiShareNetworkLight,
             title: "Total Instrusctor",
-            count: "0k",
+            count: "4",
           },
           {
             icon: LiaChalkboardTeacherSolid,
-            title: "Over the World",
+            title: " Technology Training ",
             count: "20+",
           },
         ].map((item, idx) => (

@@ -24,8 +24,8 @@ const SectionTop = () => {
             100% Placement Gurantee Institute
           </h1>
           <p className="text-lg font-semibold">
-            Lorem Ipsum is simply dummy text of the printing typesetting
-            industry. Lorem Ipsum has been
+            Dont waste money and time on degrees and colleges. Build your Carrer
+            with our pocket friendly courses
           </p>
           <div className="flex items-center">
             <button className="px-4 py-3 bg-white text-slate-900 font-semibold rounded-sm">
